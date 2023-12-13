@@ -1,0 +1,72 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Tambahkan transparansi pada latar belakang konten */
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-us h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.column {
+    float: right;
+    width: 30%;
+    size: 40%;
+    padding: 5px;
+  }
